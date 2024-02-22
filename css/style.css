@@ -1,0 +1,46 @@
+body {
+    background-color: #222;
+}
+
+#title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.dashboard {
+    display: flex;
+    gap: 10px;
+}
+
+#canvas {
+    border: 3px dashed coral;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.color-picker {
+    width: 70px;
+    height: 60px;
+    background: unset;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#saver {
+    background: dodgerblue;
+    color: #FFF;
+    width: 100px;
+    text-align: center;
+    height: 35px;
+    border: none;
+    font-size: 15px;
+    border-radius: 3px;
+}
